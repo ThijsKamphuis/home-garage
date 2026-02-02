@@ -17,7 +17,9 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         {/* <Header /> */}
-        {children}
+        <div className="max-w-md mx-auto overflow-hidden">
+          {children}
+        </div>
         <Navbar />
       </body>
     </html>
